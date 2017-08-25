@@ -2,6 +2,10 @@
 let React = require('react');
 let ReactDOM = require('react-dom');
 
+
+
+
+
 //Creat Component
 
 // function Hello() {
@@ -31,21 +35,31 @@ let ReactDOM = require('react-dom');
 // //Always start component names with a capitol letter
 // //companents can refer to other companents in their output
 //
-function Creepin(props) {
-  return <h1>Hello, {props.name}</h1>;
-  }
+// function Creepin(props) {
+//   return <h1>Hello, {props.name}</h1>;
+//   }
+//
+//  function App() {
+//     return (
+//       <div>
+//         <Creepin name='Bob' />
+//         <Creepin name='Phil' />
+//         <Creepin name='Bill' />
+//       </div>
+//     );
+//   }
+//
+//  ReactDOM.render(
+//     <App />,
+//     document.getElementById('intro-wrapper3')
+//   );
 
- function App() {
-    return (
-      <div>
-        <Creepin name='Bob' />
-        <Creepin name='Phil' />
-        <Creepin name='Bill' />
-      </div>
-    );
-  }
 
- ReactDOM.render(
-    <App />,
-    document.getElementById('intro-wrapper3')
-  );
+function Hello() {
+  return <h1>Hello</h1>;
+}
+
+ReactDOM.render(
+  <Hello />,
+  document.getElementById('intro-wrapper3')
+);

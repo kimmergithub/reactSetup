@@ -1,9 +1,6 @@
-const css = require('./app.scss');
-
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-const App = () => {
+export const App = () => {
   return (
     <div>
       <h1 className="title">Kimmer Joseph OReilly</h1>
@@ -13,11 +10,3 @@ const App = () => {
     </div>
   )
 }
-
-ReactDOM.render(
-  <App />,
-  document.getElementById('kimmer')
-);
-
-
-// <button>Home</button><button>Projects</button><button>Contact</button></div>,

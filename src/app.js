@@ -4,6 +4,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 ReactDOM.render(
-  <h1>Hello, world!</h1>,
-  document.getElementById('root')
+  <h1>Kimmer Joseph O'Reilly</h1>,
+  document.getElementById('kimmer')
 );

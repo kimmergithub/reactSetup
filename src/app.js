@@ -1,12 +1,13 @@
-const css = require('./app.scss');
-
+// Import modules === pulling in everything... 
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-const App = () => {
+const Headline = () => {
+  return <h1 className="title">Kimmer Joseph OReilly</h1>
+}
+
+const NavButtons = () => {
   return (
     <div>
-      <h1 className="title">Kimmer Joseph OReilly</h1>
       <button className="nav-buttons" id="home-button">Home</button>
       <button className="nav-buttons" id="portfolio-button">Portfolio</button>
       <button className="nav-buttons" id="contact-button">Contact</button>
@@ -14,10 +15,11 @@ const App = () => {
   )
 }
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('kimmer')
-);
-
-
-// <button>Home</button><button>Projects</button><button>Contact</button></div>,
+export const App = () => {
+  return (
+    <div>
+      <Headline />
+      <NavButtons />
+    </div>
+  )
+}

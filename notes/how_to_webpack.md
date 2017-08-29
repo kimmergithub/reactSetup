@@ -184,4 +184,4 @@ devServer: {
 -- npm install babel-loader babel-core --save-dev
 
 6. define rule in webpack.config.js
-- 
+-
